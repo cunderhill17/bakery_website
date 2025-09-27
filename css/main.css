@@ -120,7 +120,6 @@ main {
     justify-content: flex-end;
 }
 
-
 input {
     display: block;
     border: 1px solid gray;
@@ -156,12 +155,47 @@ form > button {
 }
 
 
-
-
-
-
-
-
 footer {
     grid-column: span 12;
+    padding-top: 25px;
 }
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 20px;
+}
+
+.footer-grid-item-1 {
+    grid-column: span 12;
+    margin-bottom: 5px;
+}
+
+.footer-grid-item-2 {
+    grid-column: span 3;
+}
+
+.footer-grid-item-3 {
+    grid-column: span 2;
+}
+
+.footer-grid-item-4 {
+    grid-column: span 2;
+}
+
+.footer-grid-item-5 {
+    grid-column: span 3;
+}
+
+.footer-grid-item-6 {
+    grid-column: span 12;
+    margin: 10px 0px;
+}
+
+.footer-grid-item-7 {
+    grid-column: span 12;
+    padding: 10px 0px;
+}
+
+
+

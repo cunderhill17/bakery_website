@@ -11,6 +11,10 @@ body {
     column-gap: 20px;
 }
 
+.hidden {
+    display: none;
+}
+
 /* Styling for the header */
 
 header {
@@ -59,21 +63,104 @@ nav > ul > li > a {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
+/* Styling for the main */
 
 main {
     grid-column: span 12;
 }
+
+.testimonials {
+    padding: 80px 0;
+}
+
+.main-grid { 
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 20px;
+}
+
+.main-grid-section-1 {
+    grid-column: span 12;
+}
+
+.main-grid-section-2 {
+    grid-column: span 12;
+}
+
+.product-content-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+}
+
+.product-content-grid-section-1 {
+    grid-column: span 3;
+    display: flex;
+    align-content: space-between;
+    padding: 25px 0;
+}
+
+.product-content-grid-section-2 {
+    grid-column: span 3;
+    padding: 25px 0;
+}
+
+.product-drop-down-content {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.main-grid-section-3 {
+    grid-column: span 12;
+}
+
+.main-grid-section-3 > h3 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+input {
+    display: block;
+    border: 1px solid gray;
+    outline: none;
+    width: 590px;
+    height: 56px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px 0px;
+}
+
+textarea {
+    display: block;
+    border: 1px solid gray;
+    outline: none;
+    width: 590px;
+    height: 300px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+form {
+    float: right;
+}
+
+form > button {
+    float: right;
+    width: 183px;
+    height: 61px;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
 
 footer {
     grid-column: span 12;

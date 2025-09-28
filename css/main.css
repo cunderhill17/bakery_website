@@ -149,13 +149,21 @@ main {
     padding: 15px;
 }
 
+
+
 .main-grid-section-3 {
+    margin-top: 65px;
     grid-column: span 12;
+    background-color: #A3B18A;
+    padding: 10px 0px;
 }
 
 .main-grid-section-3 > h3 {
     display: flex;
     justify-content: flex-end;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: 102px;
 }
 
 input {
@@ -182,16 +190,29 @@ textarea {
 
 form {
     float: right;
+    margin-right: 102px;
+    margin-bottom: 80px;
 }
 
 form > button {
     float: right;
     width: 183px;
     height: 61px;
-    border: 1px solid gray;
+    border: none;
     border-radius: 15px;
+    background-color: #D9834F;
+    color: #F8F1E7;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.contact-images {
+    float: left;
+}
+
+
+
+/* This is the styling for the footer */
 
 footer {
     grid-column: span 12;

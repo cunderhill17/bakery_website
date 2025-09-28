@@ -36,6 +36,7 @@ header {
     grid-column: span 4;
     display: flex;
     align-items: center;
+    color: #4B3A2F;
 }
 
 .header-nav-grid-item {
@@ -51,6 +52,13 @@ header {
     width: 100%;
 }
 
+.main-nav>ul>li>a:hover {
+    background-color: #4B3A2F;
+    color: #F8F1E7;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 .header-hero-grid-item {
     grid-column: span 12;
 }
@@ -61,6 +69,7 @@ ul {
 
 nav > ul > li > a {
     text-decoration: none;
+    color: #4B3A2F;
 }
 
 
@@ -137,6 +146,12 @@ main {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.match-size-btn:hover {
+    color: #D9834F;
+    background-color: #F8F1E7;
+    cursor: pointer;
+}
+
 .product-content-grid-section-2 {
     grid-column: span 3;
     padding: 25px 0;
@@ -202,6 +217,12 @@ main {
     color: #F8F1E7;
 }
 
+.product-drop-down-content-8:hover {
+    color: #D9834F;
+    background-color: #4B3A2F;
+    cursor: pointer;
+}
+
 
 
 
@@ -221,6 +242,7 @@ main {
     margin-top: 60px;
     margin-bottom: 30px;
     margin-right: 102px;
+    color: #4B3A2F;
 }
 
 input {
@@ -269,6 +291,12 @@ form > button {
     color: #F8F1E7;
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact-grid>form>button:hover {
+    cursor: pointer;
+    color: #D9834F;
+    background-color: #4B3A2F;
 }
 
 .contact-grid {
@@ -331,6 +359,11 @@ footer {
 
 .footer-grid-item-3>ul {
     line-height: 34px;
+}
+
+.footer-grid-item-3>ul>li>a:hover {
+    color: #4B3A2F;
+    cursor: pointer;
 }
 
 .footer-grid-item-4 {

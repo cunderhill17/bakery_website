@@ -96,8 +96,35 @@ main {
 .product-content-grid-section-1 {
     grid-column: span 3;
     display: flex;
-    align-content: space-between;
+    justify-content: space-evenly;
     padding: 25px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px 10px;
+}
+
+.container-image {
+    border-radius: 15px 15px 15px 15px;
+}
+
+.match-size-btn {
+    position: relative;
+    bottom: 58px;
+    width: 100%;
+    height: auto;
+    padding: 15px 0px;
+    border-radius: 0px 0px 15px 15px;
+    border: none;
+    background-color: #D9834F;
+    color: #F8F1E7;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .product-content-grid-section-2 {
@@ -196,6 +223,5 @@ footer {
     grid-column: span 12;
     padding: 10px 0px;
 }
-
 
 

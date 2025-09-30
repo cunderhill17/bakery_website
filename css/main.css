@@ -72,6 +72,21 @@ nav > ul > li > a {
     color: #4B3A2F;
 }
 
+.header-p-grid-item {
+    position: relative;
+    bottom: 250px;
+    grid-column: span 8;
+    background-color: #A3B18A;
+}
+
+.header-p-grid-item > p {
+    width: 675px;
+    padding: 20px 0px;
+    margin: 0 auto;
+    color: white;
+    letter-spacing: 3px;
+}
+
 
 /* Styling for the main */
 
@@ -85,22 +100,6 @@ main {
     column-gap: 20px;
 }
 
-.main-grid-section-1 {
-    grid-column: span 12;
-}
-
-.testimonials {
-    padding: 80px 0;
-    text-align: center;
-    background-color: #D6A77A;
-    color: #F8F1E7;
-}
-
-.testimonial-text {
-    width: 80%;
-    margin: 0 auto;
-}
-
 
 .main-grid-section-2 {
     grid-column: span 12;
@@ -112,44 +111,23 @@ main {
     column-gap: 20px;
 }
 
-.product-content-grid-section-1 {
+
+.product-content-grid-buttons {
     grid-column: span 3;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 25px 0;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 0px 10px;
-}
-
-.container-image {
-    border-radius: 15px 15px 15px 15px;
-}
-
-.match-size-btn {
-    position: relative;
-    bottom: 58px;
-    width: 100%;
-    height: auto;
-    padding: 15px 0px;
-    border-radius: 0px 0px 15px 15px;
+.product-content-grid-buttons > button {
+    display: block;
+    margin: 15px 0px;
     border: none;
-    background-color: #D9834F;
-    color: #F8F1E7;
-    font-size: 24px;
-    text-align: left;
-    padding-left: 23px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: transparent;
+    font-size: 40px;
+    color: #D9834F;
 }
 
-.match-size-btn:hover {
-    color: #D9834F;
-    background-color: #F8F1E7;
-    cursor: pointer;
+.product-content-grid-buttons >button.active {
+    border-left: 4px solid #4B3A2F;
+    color: #4B3A2F;
 }
 
 .product-content-grid-section-2 {
@@ -232,91 +210,50 @@ main {
 .main-grid-section-3 {
     margin-top: 65px;
     grid-column: span 12;
-    background-color: #A3B18A;
+    /* background-color: #A3B18A; */
     padding: 10px 0px;
-}
-
-.main-grid-section-3 > h3 {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 60px;
-    margin-bottom: 30px;
-    margin-right: 102px;
-    color: #4B3A2F;
-}
-
-input {
-    display: block;
-    border: 1px solid gray;
-    outline: none;
-    width: 590px;
-    height: 56px;
-    border-radius: 15px;
-    padding: 10px;
-    margin: 10px 0px;
-}
-
-textarea {
-    display: block;
-    border: 1px solid gray;
-    outline: none;
-    width: 590px;
-    height: 300px;
-    border-radius: 15px;
-    padding: 10px;
-    margin: 10px 0px;
-}
-
-form {
-    margin-bottom: 80px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-input::placeholder, textarea::placeholder {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-input, textarea {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border: none;
-}
-
-form > button {
-    float: right;
-    width: 183px;
-    height: 61px;
-    border: none;
-    border-radius: 15px;
-    background-color: #D9834F;
-    color: #F8F1E7;
-    font-size: 18px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.contact-grid>form>button:hover {
-    cursor: pointer;
-    color: #D9834F;
-    background-color: #4B3A2F;
-}
-
-.contact-grid {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 40px;
-    padding: 0 100px;
-}
-
-.contact-images {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    flex-shrink: 0;
-}
-
-.croissant-position {
     position: relative;
-    left: 100px;
+}
+
+.banner {
+    width: 1100px;
+    float: right;
+    height: 380px;
+    background-color: #4B3A2F;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.main-grid-section-3>p {
+    width: 1025px;
+    height: 240px;
+    background-color: #D9834F;
+    display: flex;
+    align-items: center;       
+    justify-content: center;
+    position: absolute;
+    bottom: 80px;
+    margin: 0px; 
+    font-size: 65px;
+    color: white;
+}
+
+
+.main-grid-section-4 {
+    margin-top: 15px;
+    grid-column: 2/span 10;
+    column-count: 2;
+    column-gap: 15px;
+}
+
+.main-grid-section-4>p {
+    font-size: 32px;
+}
+
+img.employees {
+    width: 488px;
+    border-radius: 15px;
 }
 
 

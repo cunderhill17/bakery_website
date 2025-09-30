@@ -72,6 +72,21 @@ nav > ul > li > a {
     color: #4B3A2F;
 }
 
+.header-p-grid-item {
+    position: relative;
+    bottom: 250px;
+    grid-column: span 8;
+    background-color: #A3B18A;
+}
+
+.header-p-grid-item > p {
+    width: 675px;
+    padding: 20px 0px;
+    margin: 0 auto;
+    color: white;
+    letter-spacing: 3px;
+}
+
 
 /* Styling for the main */
 
@@ -83,22 +98,6 @@ main {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     column-gap: 20px;
-}
-
-.main-grid-section-1 {
-    grid-column: span 12;
-}
-
-.testimonials {
-    padding: 80px 0;
-    text-align: center;
-    background-color: #D6A77A;
-    color: #F8F1E7;
-}
-
-.testimonial-text {
-    width: 80%;
-    margin: 0 auto;
 }
 
 

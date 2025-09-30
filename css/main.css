@@ -112,7 +112,6 @@ main {
 }
 
 
-
 .product-content-grid-buttons {
     grid-column: span 3;
 }
@@ -211,91 +210,50 @@ main {
 .main-grid-section-3 {
     margin-top: 65px;
     grid-column: span 12;
-    background-color: #A3B18A;
+    /* background-color: #A3B18A; */
     padding: 10px 0px;
-}
-
-.main-grid-section-3 > h3 {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 60px;
-    margin-bottom: 30px;
-    margin-right: 102px;
-    color: #4B3A2F;
-}
-
-input {
-    display: block;
-    border: 1px solid gray;
-    outline: none;
-    width: 590px;
-    height: 56px;
-    border-radius: 15px;
-    padding: 10px;
-    margin: 10px 0px;
-}
-
-textarea {
-    display: block;
-    border: 1px solid gray;
-    outline: none;
-    width: 590px;
-    height: 300px;
-    border-radius: 15px;
-    padding: 10px;
-    margin: 10px 0px;
-}
-
-form {
-    margin-bottom: 80px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-input::placeholder, textarea::placeholder {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-input, textarea {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border: none;
-}
-
-form > button {
-    float: right;
-    width: 183px;
-    height: 61px;
-    border: none;
-    border-radius: 15px;
-    background-color: #D9834F;
-    color: #F8F1E7;
-    font-size: 18px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.contact-grid>form>button:hover {
-    cursor: pointer;
-    color: #D9834F;
-    background-color: #4B3A2F;
-}
-
-.contact-grid {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 40px;
-    padding: 0 100px;
-}
-
-.contact-images {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    flex-shrink: 0;
-}
-
-.croissant-position {
     position: relative;
-    left: 100px;
+}
+
+.banner {
+    width: 1100px;
+    float: right;
+    height: 380px;
+    background-color: #4B3A2F;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.main-grid-section-3>p {
+    width: 1025px;
+    height: 240px;
+    background-color: #D9834F;
+    display: flex;
+    align-items: center;       
+    justify-content: center;
+    position: absolute;
+    bottom: 80px;
+    margin: 0px; 
+    font-size: 65px;
+    color: white;
+}
+
+
+.main-grid-section-4 {
+    margin-top: 15px;
+    grid-column: 2/span 10;
+    column-count: 2;
+    column-gap: 15px;
+}
+
+.main-grid-section-4>p {
+    font-size: 32px;
+}
+
+img.employees {
+    width: 488px;
+    border-radius: 15px;
 }
 
 
